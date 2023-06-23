@@ -43,7 +43,7 @@ const Table = () => {
       case 'name':
         return data.product_name;
       case 'weight':
-        return data.product_weight;
+        return parseFloat(data.product_weight.replace(' g', ''));
       case 'price':
         return data.price;
       case 'calories':
