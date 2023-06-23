@@ -56,16 +56,16 @@ const Table = () => {
   };
 
   return (
-    <div className=''>
+    <div className='flex-col items-center justify-center'>
       <input
         type="text"
         placeholder='Search with products or ingredients...'
-        className='border-gray-500 border w-80 p-2'
+        className='border-gray-500 border w-80 p-2 ml-[40%]'
         value={inputValue}
         onChange={searchValueHandler}
       />
-      <table className='border-black border table-auto'>
-        <thead>
+      <table className='border-black border table-auto mt-10 w-[80vw] h-36'>
+        <thead className='bg-blue-500 h-10'>
           <tr className='border border-black'>
             <th
               className='border border-black cursor-pointer'

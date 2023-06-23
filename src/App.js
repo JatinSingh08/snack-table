@@ -3,7 +3,7 @@ import { Table } from './components';
 
 function App() {
   return (
-    <div className="App">
+    <div className="flex items-center justify-center mt-20">
       <Table />
     </div>
   );
