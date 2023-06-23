@@ -57,10 +57,11 @@ const Table = () => {
 
   return (
     <div className='flex-col items-center justify-center'>
+      <h1 className='m-auto font-bold text-4xl ml-[45%] underline'>Snack Table</h1>
       <input
         type="text"
         placeholder='Search with products or ingredients...'
-        className='border-gray-500 border w-80 p-2 ml-[40%]'
+        className='border-gray-500 border w-80 p-2 ml-[40%] mt-10'
         value={inputValue}
         onChange={searchValueHandler}
       />
